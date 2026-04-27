@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>البوابة الرقمية الجزائرية</title>
+
+<!-- 🔥 Google AdSense -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3690841276369449"
+     crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#eef3f7;
+}
+
+header{
+    background:linear-gradient(135deg,#0a6b2f,#0f8f3a);
+    color:white;
+    text-align:center;
+    padding:30px 15px;
+}
+
+header h1{margin:0;font-size:28px;}
+header p{margin-top:6px;opacity:0.9;}
+
+.flag{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+
+.flag img{
+    width:70px;
+    border-radius:6px;
+}
+
+.search{
+    text-align:center;
+    margin:25px 10px;
+}
+
+.search input{
+    width:60%;
+    max-width:500px;
+    padding:12px;
+    border-radius:12px;
+    border:1px solid #ddd;
+    outline:none;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:18px;
+    padding:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:18px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    border-top:4px solid #0f8f3a;
+    transition:0.25s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.icon{
+    font-size:45px;
+    color:#0f8f3a;
+    margin-bottom:10px;
+}
+
+.card h3{
+    color:#0a6b2f;
+    font-size:16px;
+    margin:8px 0;
+}
+
+.card p{
+    font-size:13px;
+    color:#666;
+}
+
+.card a{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 14px;
+    background:#0f8f3a;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+}
+
+.contact{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+    background:#0f8f3a;
+    color:white;
+    padding:12px 15px;
+    border-radius:50px;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#e9eef3;
+    font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>البوابة الرقمية الجزائرية</h1>
+<p>منصة موحدة للخدمات الرقمية الوطنية</p>
+
+<div class="flag">
+<img src="https://flagcdn.com/w320/dz.png">
+</div>
+</header>
+
+<div class="search">
+<input type="text" id="search" placeholder="ابحث عن منصة..." onkeyup="filter()">
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+        <h3>طلب البطاقة الذهبية</h3>
+        <p>بريد الجزائر</p>
+        <a href="https://eccp.poste.dz/commande-edahabia" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-hospital"></i></div>
+        <h3>CNAS</h3>
+        <p>الضمان الاجتماعي</p>
+        <a href="https://www.cnas.dz" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-user-tie"></i></div>
+        <h3>CASNOS</h3>
+        <p>اشتراكات غير الأجراء</p>
+        <a href="https://damancom.casnos.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-briefcase"></i></div>
+        <h3>ANEM</h3>
+        <p>التشغيل والوظائف</p>
+        <a href="https://wassitonline.anem.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-house"></i></div>
+        <h3>AADL</h3>
+        <p>السكن الوطني</p>
+        <a href="https://www.aadl.dz" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-users"></i></div>
+        <h3>Youth Connect</h3>
+        <p>منصة الشباب</p>
+        <a href="https://youthconnect.mjeunesse.gov.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-school"></i></div>
+        <h3>فضاء الأولياء</h3>
+        <p>متابعة التمدرس</p>
+        <a href="https://awlyaa.education.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-suitcase-medical"></i></div>
+        <h3>Formation Santé</h3>
+        <p>التكوين الصحي</p>
+        <a href="https://formation.sante.gov.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>MDN</h3>
+        <p>وزارة الدفاع الوطني</p>
+        <a href="https://preinscription.mdn.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+        <h3>Tawdif Education</h3>
+        <p>توظيف الأساتذة</p>
+        <a href="https://tawdif.education.dz/" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-id-card"></i></div>
+        <h3>الوثائق البيوميترية</h3>
+        <p>بطاقة التعريف البيومترية</p>
+        <a href="https://passeport.interieur.gov.dz/ar/demandecnibe/demander%20la%20carte%20d'identit%C3%A9%20en%20ligne" target="_blank">الدخول</a>
+    </div>
+
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-scale-balanced"></i></div>
+        <h3>صحيفة السوابق القضائية</h3>
+        <p>استخراج القسيمة رقم 03</p>
+        <a href="https://www.mjustice.gov.dz/ar/%D8%B5%D9%80%D8%AD%D9%8A%D9%81%D8%A9%D8%A7%D9%84%D8%B3%D9%88%D8%A7%D8%A8%D9%82%D8%A7%D9%84%D9%82%D8%B6%D8%A7%D8%A6%D9%8A%D8%A9/" target="_blank">الدخول</a>
+    </div>
+
+    <!-- 🐑 منصة الأضاحي -->
+    <div class="card">
+        <div class="icon"><i class="fa-solid fa-sheep"></i></div>
+        <h3>منصة الأضاحي</h3>
+        <p>حجز وشراء الأضاحي إلكترونياً</p>
+        <a href="https://www.adhahi.dz" target="_blank">الدخول</a>
+    </div>
+
+</div>
+
+<a class="contact" href="mailto:royalmouad47@gmail.com">
+📧 اتصل بنا
+</a>
+
+<footer>
+© 2026 البوابة الرقمية الجزائرية - بن قومار معاذ
+</footer>
+
+<script>
+function filter(){
+    let input=document.getElementById("search").value.toLowerCase();
+    document.querySelectorAll(".card").forEach(c=>{
+        c.style.display = c.innerText.toLowerCase().includes(input) ? "" : "none";
+    });
+}
+</script>
+
+</body>
+</html>
